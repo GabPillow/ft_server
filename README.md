@@ -16,11 +16,11 @@ Kind like make for makefile this one will build image :
 
       docker build -t [image's name] .
 
-To run image, the -p option is necessary to publish a container’s port(s) to the host :
+To run container, the -p option is necessary to publish a container’s port(s) to the host :
 
       docker run -p [your port]:[port container] [image]
 
 ### Tips
-When running docker without being in the container of your machine virtual, this one will automatically stop
+When running docker without being in the container, this one will automatically stop
 if nothing is running in front.
 Nginx will run in back.
