@@ -15,6 +15,7 @@ For school's mac you need to :
 Kind like make for makefile this one will build image :
   
   docker build -t [image's name]
+
 To run image, the -p option is necessary to publish a container’s port(s) to the host :
   
   docker run -p [your port]:[port container] [image]
