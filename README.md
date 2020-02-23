@@ -64,9 +64,14 @@ ssl :
 https://devcenter.heroku.com/articles/ssl-certificate-self
 
 Docker :
+
 dockerfile:
+
 https://docs.docker.com/engine/reference/builder/
+
 commands:
 https://docs.docker.com/engine/reference/commandline/run/
+
 https://docs.docker.com/engine/reference/commandline/build/
+
 https://docs.docker.com/engine/reference/commandline/exec/
